@@ -8,7 +8,7 @@ function Header() {
                 <h1>Nicholas J. Ochs</h1>
                 <Typed
                     className="typed-text"
-                    strings={["Full Stack Developer", "Insurance Underwriter", "Guitarist"]}
+                    strings={["Full Stack Developer", "Software Engineer", "Insurance Underwriter"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
