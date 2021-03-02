@@ -12,7 +12,7 @@ function AboutMe() {
                 </div>
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="about-heading">About Me</h1>
-                    <p>Hello! I am Nicholas Ochs, but most people call me Nick. I have been building computers for over 5 years and have recently found my new passion for web development. I am currently using a MERN Stack (MongoDB, ExpressJS, React, NodeJS)</p>
+                    <p>Hello! I am Nicholas Ochs, but most people call me Nick. I have been building computers for over 5 years and have recently found my new passion for web development. I am currently using the MERN Stack (MongoDB, ExpressJS, React, NodeJS)</p>
                 </div>
             </div>
         </div>

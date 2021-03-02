@@ -49,10 +49,11 @@ function TechStack() {
                             <p>Server Side Environment</p>
                         </div>
                     </div>
+                    <h4 className="extra-tech">But that's not all. Other technologies that I know include: HTML5, CSS3, Bootstrap, Material-UI, JavaScript, Redux, PostgresQL, Git, GitHub</h4>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default TechStack
+export default TechStack;
