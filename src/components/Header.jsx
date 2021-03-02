@@ -3,7 +3,7 @@ import Typed from "react-typed";
 
 function Header() {
     return (
-        <div className="header-wrapper">
+        <div id="Home" className="header-wrapper">
             <div className="main-info">
                 <h1>Nicholas J. Ochs</h1>
                 <Typed

@@ -50,7 +50,7 @@ nav ul li {
   }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.actove:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -65,7 +65,7 @@ nav ul li {
   background: url(./img/wall-and-laptop-background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -335,7 +335,7 @@ nav ul li {
 
 /* CONTACT */
 .contacts {
-  background: var(--primary-dark);
+  /* background: var(--primary-dark); */
   padding: 3rem 0;
 }
 

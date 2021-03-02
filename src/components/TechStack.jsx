@@ -6,7 +6,7 @@ import { faDatabase, faNetworkWired } from "@fortawesome/free-solid-svg-icons";
 
 function TechStack() {
     return (
-        <div className="tech-stack">
+        <div id="TechStack" className="tech-stack">
             <h1 className="py-5">Tech Stack</h1>
                 <div className="container">
                     <div className="row">
