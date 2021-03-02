@@ -29,7 +29,7 @@ function Navbar() {
                             <Link smooth={true} to="Contact" offset={-110} className="nav-link" href="#">Contact Me</Link >
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="Resume" className="nav-link" href="#">Resume</Link >
+                            <a className="nav-link" href="/Resume.pdf">Resume</a>
                         </li>
                     </ul>
                 </div>
