@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import TechStack from "./components/TechStack"
 import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
     <AboutMe />
     <TechStack />
     <Portfolio />
+    <Contact />
     </>
   );
 }
