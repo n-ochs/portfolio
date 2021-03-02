@@ -198,6 +198,7 @@ nav ul li {
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: var(--primary-white);
+  transition: 0.2s ease-in-out;
 }
 
 .tech-stack .box:hover {
