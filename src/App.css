@@ -336,6 +336,8 @@ nav ul li {
 /* CONTACT */
 .contacts {
   /* background: var(--primary-dark); */
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding: 3rem 0;
 }
 

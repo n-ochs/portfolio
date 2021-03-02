@@ -38,7 +38,7 @@ function Contact() {
             
             <div className="container">
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <div className="row">
+                    <div className="row ml-0 mr-0">
                         <div className="col-md-6 col-xs-12">
                             <div className="text-center">
                                 <input
