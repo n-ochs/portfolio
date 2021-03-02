@@ -15,8 +15,8 @@ function Portfolio() {
             <>
             <img className="portfolio-image-popupbox" src={GYBO} alt="Get Your Beer On" />
             <p>Get Your Beer On is a web application for users looking for their next favorite brewery or beer.</p>
-            <b>Live Site:</b> <a className="hyper-link" onClick={() => window.open("https://get-your-beer-on.herokuapp.com/")}>https://get-your-beer-on.herokuapp.com/</a><br/>
-            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/fiixed/Get-Your-Beer-On")}>https://github.com/fiixed/Get-Your-Beer-On</a>
+            <b>Live Site:</b> <button className="hyper-link btn" onClick={() => window.open("https://get-your-beer-on.herokuapp.com/")}>https://get-your-beer-on.herokuapp.com/</button><br/>
+            <b>Github:</b> <button className="hyper-link btn" onClick={() => window.open("https://github.com/fiixed/Get-Your-Beer-On")}>https://github.com/fiixed/Get-Your-Beer-On</button>
             </>
         );
         PopupboxManager.open({ content });
@@ -37,8 +37,8 @@ function Portfolio() {
             <>
             <img className="portfolio-image-popupbox" src={PSB} alt="Pig Skin Bets" />
             <p>Pig Skin Bets is an online sportsbook for people that are looking to make their Sundays a little more interesting.</p>
-            <b>Live Site:</b> <a className="hyper-link" onClick={() => window.open("https://sleepy-harbor-60617.herokuapp.com/")}>https://sleepy-harbor-60617.herokuapp.com/</a><br/>
-            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/n-ochs/pigskinbets")}>https://github.com/n-ochs/pigskinbets</a>
+            <b>Live Site:</b> <button className="hyper-link btn" onClick={() => window.open("https://sleepy-harbor-60617.herokuapp.com/")}>https://sleepy-harbor-60617.herokuapp.com/</button><br/>
+            <b>Github:</b> <button className="hyper-link btn" onClick={() => window.open("https://github.com/n-ochs/pigskinbets")}>https://github.com/n-ochs/pigskinbets</button>
             </>
         );
         PopupboxManager.open({ content });
@@ -59,8 +59,8 @@ function Portfolio() {
             <>
             <img className="portfolio-image-popupbox" src={NS} alt="Nick Says" />
             <p>NickSays is a simple, yet challenging memory game. It is designed after Simon-Says. Test your memory today and add your high score to the leaderboard!</p>
-            <b>Live Site:</b> <a className="hyper-link" onClick={() => window.open("https://nick-says.netlify.app/")}>https://nick-says.netlify.app/</a><br/>
-            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/n-ochs/nicksays")}>https://github.com/n-ochs/nicksays</a>
+            <b>Live Site:</b> <button className="hyper-link btn" onClick={() => window.open("https://nick-says.netlify.app/")}>https://nick-says.netlify.app/</button><br/>
+            <b>Github:</b> <button className="hyper-link btn" onClick={() => window.open("https://github.com/n-ochs/nicksays")}>https://github.com/n-ochs/nicksays</button>
             </>
         );
         PopupboxManager.open({ content });
@@ -81,9 +81,9 @@ function Portfolio() {
             <>
             <img className="portfolio-image-popupbox" src={CC} alt="Crypto Cave" />
             <p>Crypto Cave is an online portal to keep track of your own portfolio, trending cryptocurrencies, and more!</p>
-            <b>Live Site:</b> <a className="hyper-link" onClick={() => window.open("https://cryptocave.netlify.app/")}>https://cryptocave.netlify.app/</a><br/>
-            <b>Github (Front End):</b> <a className="hyper-link" onClick={() => window.open("https://github.com/n-ochs/cryptocave")}>https://github.com/n-ochs/cryptocave</a><br/>
-            <b>Github (Back End):</b> <a className="hyper-link" onClick={() => window.open("https://github.com/n-ochs/cryptocave-backend")}>https://github.com/n-ochs/cryptocave-backend</a>
+            <b>Live Site:</b> <button className="hyper-link btn" onClick={() => window.open("https://cryptocave.netlify.app/")}>https://cryptocave.netlify.app/</button><br/>
+            <b>Github (Front End):</b> <button className="hyper-link btn" onClick={() => window.open("https://github.com/n-ochs/cryptocave")}>https://github.com/n-ochs/cryptocave</button><br/>
+            <b>Github (Back End):</b> <button className="hyper-link btn" onClick={() => window.open("https://github.com/n-ochs/cryptocave-backend")}>https://github.com/n-ochs/cryptocave-backend</button>
             </>
         );
         PopupboxManager.open({ content });

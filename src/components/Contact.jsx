@@ -6,10 +6,6 @@ function Contact() {
     const [successMessage, setSuccessMessage] = useState("");
     const { register, handleSubmit, errors } = useForm();
 
-    const serviceID = 'service_9xmo9f4';
-	const templateID = 'template_ID';
-	const userID = 'user_3rA99fHNGeTe7mUcRnYxA';
-
     const onSubmit = (data, r) => {
         sendEmail("service_9xmo9f4", "template_ID", {
             name: data.name,

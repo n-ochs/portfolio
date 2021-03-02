@@ -1,6 +1,6 @@
 import React from "react";
-import { LinkedinShareButton, LinkedinIcon,  } from "react-share";
-import { Link } from "react-router-dom";
+import { LinkedinIcon } from "react-share";
+import { Link } from "react-scroll";
 
 function Footer() {
     return (
@@ -18,18 +18,18 @@ function Footer() {
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
                             <div className="col">
-                                <a className="footer-nav">Home</a>
+                                <Link smooth={true} to={"Home"} offset={-110} className="footer-nav">Home</Link>
                                 <br/>
-                                <a className="footer-nav">About Me</a>
+                                <Link smooth={true} to={"AboutMe"} offset={-110} className="footer-nav">About Me</Link>
                                 <br/>
-                                <a className="footer-nav">Tech Stack</a>
+                                <Link smooth={true} to={"TechStack"} offset={-110} className="footer-nav">Tech Stack</Link>
                             </div>
                             <div className="col">
-                                <a className="footer-nav">Portfolio</a>
+                                <Link smooth={true} to={"Portfolio"} offset={-110} className="footer-nav">Portfolio</Link>
                                 <br/>
-                                <a className="footer-nav">Contact</a>
+                                <Link smooth={true} to={"Contact"} offset={-110} className="footer-nav">Contact</Link>
                                 <br/>
-                                <a className="footer-nav">Resume</a>
+                                <Link smooth={true} to={"Home"} offset={-110} className="footer-nav">Resume</Link>
                             </div>
                         </div>
                     </div>
