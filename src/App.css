@@ -89,6 +89,28 @@ nav ul li {
   font-weight: 800;
 }
 
+/* FOOTER */
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
 
 /* TYPED TEXT */
 .typed-text {
@@ -401,12 +423,6 @@ textarea.form-control {
   width: 100%;
   background: none;
 };
-
-/* .error-message {
-  color: var(--primary-white);
-  background: var(--primary-red);
-  text-align: left;
-} */
 
 @media(max-width: 768px) {
   .contacts {
