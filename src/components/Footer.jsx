@@ -29,7 +29,7 @@ function Footer() {
                                 <br/>
                                 <Link smooth={true} to={"Contact"} offset={-110} className="footer-nav">Contact</Link>
                                 <br/>
-                                <Link smooth={true} to={"Home"} offset={-110} className="footer-nav">Resume</Link>
+                                <a href="/Resume.pdf" className="footer-nav">Resume</a>
                             </div>
                         </div>
                     </div>
